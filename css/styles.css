@@ -29,7 +29,10 @@ header nav a.nav-link:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, var(--primary-color), #34495e);
+  background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(52, 73, 94, 0.7)), url('../images/1_qMwHah-Oxg-1UVDHthlHmQ.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
   padding: 80px 0;
   text-align: center;
