@@ -98,6 +98,18 @@ header nav a.nav-link:hover {
   background-color: #0b7f6f;
 }
 
+/* Reusable CTA button matching portfolio buttons */
+.btn-cta {
+  background-color: #0d9488;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-cta:hover {
+  background-color: #0b7f6f;
+}
+
 /* Footer */
 footer {
   background-color: var(--primary-color);
