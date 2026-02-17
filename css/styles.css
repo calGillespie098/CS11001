@@ -87,6 +87,28 @@ header nav a.nav-link:hover {
   background-color: var(--light-bg);
 }
 
+/* Make all portfolio cards match height and keep CTA at bottom */
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.portfolio-card .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card .card-body .card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.portfolio-card .btn {
+  margin-top: auto;
+}
+
 .portfolio-card .btn {
   background-color: #0d9488; /* teal */
   border: none;
